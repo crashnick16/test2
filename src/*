@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="freelancer/css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"/>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/github.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="gridstack.css" rel="stylesheet">
+    <link href="gridstack-demo.css" rel="stylesheet">
+</head>
+
+<body id="page-top" class="index">
+
+   
+    <section id="demo" class="darklue">
+        <div class="container">
+           <div data-bind="component: {name: 'dashboard-grid'}"></div>
+        </div>
+    </section>
+   
+  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+	<script type='text/javascript' src='knockout-3.2.0.js'></script>
+
+    <script src="gridstack.js"></script>
+    <script type="text/javascript">
+         console.log(ko);
+         console.log($);
+          var ba = [
+				 {"x":1,"y":0,"width":4,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":16},"context":{"jQuery1111003510975022800267":16},"length":1},"_id":1,"_dirty":true,"_orig_y":0,"_updating":true},
+				 {"x":8,"y":0,"width":2,"height":2,"min_width":"2","max_height":100,"auto_position":false,"no_resize":true,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":64},"selector":"","context":{"jQuery1111003510975022800267":64},"length":1},"_id":5,"_dirty":true,"_orig_y":0},
+				 {"x":10,"y":0,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":88},"selector":"","context":{"jQuery1111003510975022800267":88},"length":1},"_id":7,"_dirty":true,"_orig_y":0},
+				 {"x":4,"y":2,"width":4,"height":4,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":28},"selector":"","context":{"jQuery1111003510975022800267":28},"length":1},"_id":2,"_dirty":true,"_orig_y":0},
+				 {"x":0,"y":2,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":40},"selector":"","context":{"jQuery1111003510975022800267":40},"length":1},"_id":3,"_dirty":true,"_orig_y":2},
+				 {"x":8,"y":2,"width":4,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":100},"selector":"","context":{"jQuery1111003510975022800267":100},"length":1},"_id":8,"_dirty":true,"_orig_y":2},
+				 {"x":2,"y":2,"width":2,"height":4,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":52},"selector":"","context":{"jQuery1111003510975022800267":52},"length":1},"_id":4,"_dirty":true,"_orig_y":2},
+				 {"x":0,"y":4,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":76},"selector":"","context":{"jQuery1111003510975022800267":76},"length":1},"_id":6,"_dirty":true,"_orig_y":4},
+				 {"x":4,"y":6,"width":4,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":136},"selector":"","context":{"jQuery1111003510975022800267":136},"length":1},"_id":11,"_dirty":true,"_orig_y":4},
+				 {"x":8,"y":4,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":112},"selector":"","context":{"jQuery1111003510975022800267":112},"length":1},"_id":9,"_dirty":true,"_orig_y":4},
+				 {"x":10,"y":4,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":124},"selector":"","context":{"jQuery1111003510975022800267":124},"length":1},"_id":10,"_dirty":true,"_orig_y":4}]
+
+
+                this.widgets = ba;
+                console.log(this.widgets);
+         ko.components.register('dashboard-grid', {
+    viewModel: {
+        createViewModel: function (componentInfo) {
+            var ViewModel = function (componentInfo) {
+                var grid = null;
+				 
+				 var ba = [
+				 {"x":1,"y":0,"width":4,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":16},"context":{"jQuery1111003510975022800267":16},"length":1},"_id":1,"_dirty":true,"_orig_y":0,"_updating":true},
+				 {"x":8,"y":0,"width":2,"height":2,"min_width":"2","max_height":100,"auto_position":false,"no_resize":true,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":64},"selector":"","context":{"jQuery1111003510975022800267":64},"length":1},"_id":5,"_dirty":true,"_orig_y":0},
+				 {"x":10,"y":0,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":88},"selector":"","context":{"jQuery1111003510975022800267":88},"length":1},"_id":7,"_dirty":true,"_orig_y":0},
+				 {"x":4,"y":2,"width":4,"height":4,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":28},"selector":"","context":{"jQuery1111003510975022800267":28},"length":1},"_id":2,"_dirty":true,"_orig_y":0},
+				 {"x":0,"y":2,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":40},"selector":"","context":{"jQuery1111003510975022800267":40},"length":1},"_id":3,"_dirty":true,"_orig_y":2},
+				 {"x":8,"y":2,"width":4,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":100},"selector":"","context":{"jQuery1111003510975022800267":100},"length":1},"_id":8,"_dirty":true,"_orig_y":2},
+				 {"x":2,"y":2,"width":2,"height":4,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":52},"selector":"","context":{"jQuery1111003510975022800267":52},"length":1},"_id":4,"_dirty":true,"_orig_y":2},
+				 {"x":0,"y":4,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":76},"selector":"","context":{"jQuery1111003510975022800267":76},"length":1},"_id":6,"_dirty":true,"_orig_y":4},
+				 {"x":4,"y":6,"width":4,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":136},"selector":"","context":{"jQuery1111003510975022800267":136},"length":1},"_id":11,"_dirty":true,"_orig_y":4},
+				 {"x":8,"y":4,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":112},"selector":"","context":{"jQuery1111003510975022800267":112},"length":1},"_id":9,"_dirty":true,"_orig_y":4},
+				 {"x":10,"y":4,"width":2,"height":2,"max_height":100,"auto_position":false,"no_resize":false,"no_move":false,"locked":false,"el":{"0":{"jQuery1111003510975022800267":124},"selector":"","context":{"jQuery1111003510975022800267":124},"length":1},"_id":10,"_dirty":true,"_orig_y":4}]
+
+                this.widgets = ba;
+
+                this.afterAddWidget = function () {
+                      console.log("test");
+                    _.each(widgets, function (item) {
+                        item = $(item);
+                         
+                        if (grid == null) {
+                            grid = $('.grid-stack').gridstack({
+                                auto: false,
+                                animate:true,
+                                width: 12
+                            }).data('gridstack');
+                        }
+
+                        grid.add_widget(item);
+                        ko.utils.domNodeDisposal.addDisposeCallback(item[0], function () {
+                            grid.remove_widget(item);
+                        });
+                    }, this);
+                };
+
+            };
+            return new ViewModel(componentInfo);
+        }
+    },
+    template: [
+        '<div class="grid-stack" style="height:400px; background-color: black">',
+        '   <!-- ko foreach: widgets, afterRender: afterAddWidget -->',
+        '       <div class="grid-stack-item" data-bind="attr: {',
+        '               \'data-gs-x\': x, \'data-gs-y\': y,',
+        '               \'data-gs-width\': width, \'data-gs-height\': height}">',
+        '            <div class="grid-stack-item-content">',
+        '           <span data-bind="text: $index"></span>',
+        '           </div>',
+        '       </div>',
+        '   <!-- /ko -->',
+        '</div>'
+    ].join('\n')
+});
+
+
+        $(function () {
+           
+            var serialize_widget_map = function (items) {
+    			console.log(items);
+    			var b = JSON.stringify(items);
+    			console.log(b);
+			};
+
+
+	$('.grid-stack').on('change', function (e, items) {
+    	serialize_widget_map(items);
+	});
+	 ko.applyBindings();
+	//ko.applyBindings();
+});
+        
+        
+    </script>
+</body>
+
+</html>
+
+
